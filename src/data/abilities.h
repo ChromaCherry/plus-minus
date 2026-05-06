@@ -2432,4 +2432,9 @@ const struct AbilityInfo gAbilitiesInfo[ABILITIES_COUNT] =
         .cantBeSwapped = TRUE,
         .cantBeTraced = TRUE,
     },
+	[ABILITY_MAGIC_POWER] =
+	{
+		.name = _("Magic Power"),
+		.description = COMPOUND_STRING("Boosts Special Attack."),
+	},
 };

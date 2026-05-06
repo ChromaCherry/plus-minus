@@ -89,8 +89,8 @@
               },
               {
                 "min_level": 2,
-                "max_level": 2,
-                "species": "SPECIES_POOCHYENA"
+                "max_level": 3,
+                "species": "SPECIES_MEDICHAM_LASERIAN"
               },
               {
                 "min_level": 2,
@@ -705,7 +705,7 @@
               {
                 "min_level": 12,
                 "max_level": 12,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_POLTCHAGEIST"
               },
               {
                 "min_level": 12,

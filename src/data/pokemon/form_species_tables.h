@@ -896,6 +896,8 @@ static const u16 sAggronFormSpeciesIdTable[] = {
 #if P_FAMILY_MEDITITE
 static const u16 sMedichamFormSpeciesIdTable[] = {
     SPECIES_MEDICHAM,
+	SPECIES_MEDITITE_LASERIAN,
+	SPECIES_MEDICHAM_LASERIAN,
 #if P_MEGA_EVOLUTIONS
     SPECIES_MEDICHAM_MEGA,
 #endif

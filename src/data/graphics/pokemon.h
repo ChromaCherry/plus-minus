@@ -27503,3 +27503,10 @@ const u32 gObjectEventPic_Substitute[] = INCBIN_COMP("graphics/pokemon/question_
     const u32 gMonFrontPic_Egg[] = INCBIN_U32("graphics/pokemon/egg/anim_front.4bpp.smol");
     const u16 gMonPalette_Egg[] = INCBIN_U16("graphics/pokemon/egg/normal.gbapal");
     const u8 gMonIcon_Egg[] = INCBIN_U8("graphics/pokemon/egg/icon.4bpp");
+	
+    const u32 gMonFrontPic_Medicham_Laserian[] = INCBIN_U32("graphics/pokemon/medicham_laserian/anim_front.4bpp.smol");
+	const u16 gMonPalette_Medicham_Laserian[] = INCBIN_U16("graphics/pokemon/medicham_laserian/normal.gbapal");
+    const u32 gMonBackPic_Medicham_Laserian[] = INCBIN_U32("graphics/pokemon/medicham_laserian/back.4bpp.smol");
+    const u16 gMonShinyPalette_Medicham_Laserian[] = INCBIN_U16("graphics/pokemon/medicham_laserian/shiny.gbapal");
+	const u8 gMonIcon_Medicham_Laserian[] = INCBIN_U8("graphics/pokemon/medicham_laserian/icon.4bpp");
+	const u8 gMonFootprint_Medicham_Laserian[] = INCBIN_U8("graphics/pokemon/medicham_laserian/footprint.1bpp");

@@ -1687,8 +1687,11 @@
 #define SPECIES_TATSUGIRI_DROOPY_MEGA                   1570
 #define SPECIES_TATSUGIRI_STRETCHY_MEGA                 1571
 #define SPECIES_GLIMMORA_MEGA                           1572
+// Fakemon stuff starts here!
+#define SPECIES_MEDITITE_LASERIAN						1573
+#define SPECIES_MEDICHAM_LASERIAN						1574
 
-#define SPECIES_EGG                                     (SPECIES_GLIMMORA_MEGA + 1)
+#define SPECIES_EGG                                     (SPECIES_MEDICHAM_LASERIAN + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 

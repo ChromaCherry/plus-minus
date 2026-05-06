@@ -193,9 +193,8 @@ const struct SpeciesInfo gSpeciesInfo[] =
 		.abilities = { ABILITY_MAGIC_POWER, ABILITY_NONE, ABILITY_TELEPATHY },
 		.bodyColor = BODY_COLOR_BLUE,
 		.speciesName = _("Meditite"),
-		.isLaserianForm = TRUE,
-		.evolution = EVOLUTION({EVO_ITEM ITEM_FIRE_STONE, SPECIES_MEDICHAM_LASERIAN}),
-		.formSpeciesIdTable = sMedichamFormSpeciesIdTable,
+		.evolutions = EVOLUTION({EVO_ITEM, ITEM_FIRE_STONE, SPECIES_MEDICHAM_LASERIAN}),
+		.formSpeciesIdTable = sMedititeFormSpeciesIdTable,
 	},
 	[SPECIES_MEDICHAM_LASERIAN] =
 	{
@@ -218,8 +217,7 @@ const struct SpeciesInfo gSpeciesInfo[] =
         .bodyColor = BODY_COLOR_RED,
 		.speciesName = _("Medicham"),
 		.cryId = CRY_MEDICHAM_LASERIAN,
-		.natDexNum = NATIONAL_DEX_MEDICHAM_LASERIAN,
-		.isLaserianForm = TRUE,
+		.natDexNum = NATIONAL_DEX_MEDICHAM,
 		.categoryName = _("Juggling"),
 		.height = 13,
 		.weight = 315,

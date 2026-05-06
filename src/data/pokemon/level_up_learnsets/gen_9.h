@@ -22315,6 +22315,7 @@ static const struct LevelUpMove sPecharuntLevelUpLearnset[] = {
 #endif //P_FAMILY_PECHARUNT
 
 static const struct LevelUpMove sMedicham_LaserianLevelUpLearnset[] = {
+	LEVEL_UP_MOVE( 0, MOVE_FIRE_VOLLEY),
 	LEVEL_UP_MOVE( 1, MOVE_CONFUSION),
 	LEVEL_UP_MOVE( 1, MOVE_EMBER),
 	LEVEL_UP_MOVE( 1, MOVE_WORK_UP),

@@ -9323,6 +9323,16 @@
       "border_height": 2,
       "border_width": 2,
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_TOWN_TEST",
+      "name": "TownTest_Layout",
+      "width": 28,
+      "height": 23,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/TownTest/border.bin",
+      "blockdata_filepath": "data/layouts/TownTest/map.bin"
     }
   ]
 }

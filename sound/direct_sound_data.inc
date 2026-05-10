@@ -8742,6 +8742,11 @@ Cry_Pecharunt::
 	.align 2
 Cry_Medicham_Laserian::
 	.incbin "sound/direct_sound_samples/cries/medicham_laserian.bin"
+	
+	.align 2
+Cry_Sheery::
+	.incbin "sound/direct_sound_samples/cries/sheery.bin"
+	.align 2
 .endif @ P_CRIES_ENABLED
 
 .if TESTING == TRUE

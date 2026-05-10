@@ -191,10 +191,44 @@ const struct SpeciesInfo gSpeciesInfo[] =
 		.growthRate = GROWTH_MEDIUM_FAST,
 		.eggGroups = MON_EGG_GROUPS(EGG_GROUP_HUMAN_LIKE),
 		.abilities = { ABILITY_MAGIC_POWER, ABILITY_NONE, ABILITY_TELEPATHY },
-		.bodyColor = BODY_COLOR_BLUE,
+		.bodyColor = BODY_COLOR_BLACK,
 		.speciesName = _("Meditite"),
+		.cryId = CRY_MEDITITE,
+		.natDexNum = NATIONAL_DEX_MEDITITE,
+		.categoryName = _("Performance"),
+		.height = 9,
+		.weight = 140,
+		.description = COMPOUND_STRING(
+			"Meditite in La Sera were\n"
+			"bred to be circus partners.\n"
+			"It balances on a ball made\n"
+			"of psychic energy."),
+		.pokemonScale = 275,
+        .pokemonOffset = 0,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+		.frontPic = gMonFrontPic_Meditite_Laserian,
+		.frontPicSize = MON_COORDS_SIZE(32, 61),
+		.frontPicYOffset = 0,
+		.frontAnimFrames = ANIM_FRAMES(
+		 ANIMCMD_FRAME(1, 60),
+         ANIMCMD_FRAME(0, 5),
+		 ),
+		.frontAnimId = ANIM_SWING_CONCAVE,
+		.backPic = gMonBackPic_Meditite_Laserian,
+		.backPicSize = MON_COORDS_SIZE(42, 50),
+		.backAnimId = BACK_ANIM_H_SLIDE,
+		.backPicYOffset = 0,
+		.palette = gMonPalette_Meditite_Laserian,
+		.shinyPalette = gMonShinyPalette_Meditite_Laserian,
+		.iconSprite = gMonIcon_Meditite_Laserian,
+		.iconPalIndex = 4,
+		FOOTPRINT(Meditite_Laserian)
+		.levelUpLearnset = sMeditite_LaserianLevelUpLearnset,
 		.evolutions = EVOLUTION({EVO_ITEM, ITEM_FIRE_STONE, SPECIES_MEDICHAM_LASERIAN}),
 		.formSpeciesIdTable = sMedititeFormSpeciesIdTable,
+		SHADOW(1, 13, SHADOW_SIZE_M)
+
 	},
 	[SPECIES_MEDICHAM_LASERIAN] =
 	{
@@ -258,11 +292,41 @@ const struct SpeciesInfo gSpeciesInfo[] =
 		.iconPalIndex = 0,
 		FOOTPRINT(Medicham_Laserian)
 		.levelUpLearnset = sMedicham_LaserianLevelUpLearnset,
-		SHADOW(2, 13, SHADOW_SIZE_M)
 		.formSpeciesIdTable = sMedichamFormSpeciesIdTable,
+		SHADOW(2, 13, SHADOW_SIZE_M)
 
 	},
-
+	[SPECIES_SHEERY] =
+	{
+		.baseHP 		= 61,
+		.baseAttack 	= 58,
+		.baseDefense 	= 53,
+		.baseSpeed		= 47,
+		.baseSpAttack	= 47,
+		.baseSpDefense	= 52,
+		.types = MON_TYPES(TYPE_GRASS),
+		.catchRate = 45,
+		.expYield = 65,
+		.evYield_HP = 1,
+		.genderRatio = PERCENT_FEMALE(50),
+		.eggCycles = 20,
+		.friendship = STANDARD_FRIENDSHIP,
+		.growthRate = GROWTH_MEDIUM_SLOW,
+		.eggGroups = MON_EGG_GROUPS(EGG_GROUP_FIELD, EGG_GROUP_MINERAL),
+		.abilities = { ABILITY_OVERGROW, ABILITY_NONE, ABILITY_LEAF_GUARD },
+		.bodyColor = BODY_COLOR_GREEN,
+		.speciesName = _("Sheery"),
+		.natDexNum = NATIONAL_DEX_SHEERY,
+		.categoryName = _("Lamb"),
+		.height = 5,
+		.weight = 93,
+		.description = COMPOUND_STRING(
+			"It cheerfully plays with its\n"
+			"siblings in wide, open fields.\n"
+			"Warm, sunny days are when it's the\n"
+			"most energetic."),
+		.cryId = CRY_SHEERY,
+	},
     /* You may add any custom species below this point based on the following structure: */
 
     /*

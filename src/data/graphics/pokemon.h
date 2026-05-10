@@ -27511,3 +27511,9 @@ const u32 gObjectEventPic_Substitute[] = INCGFX_COMP("graphics/pokemon/question_
 	const u8 gMonIcon_Medicham_Laserian[] = INCGFX_U8("graphics/pokemon/medicham_laserian/icon.png", ".4bpp");
 	const u8 gMonFootprint_Medicham_Laserian[] = INCGFX_U8("graphics/pokemon/medicham_laserian/footprint.png", ".1bpp");
     
+    const u32 gMonFrontPic_Meditite_Laserian[] = INCGFX_U32("graphics/pokemon/meditite_laserian/anim_front.png", ".4bpp.smol");
+	const u16 gMonPalette_Meditite_Laserian[] = INCGFX_U16("graphics/pokemon/meditite_laserian/normal.pal", ".gbapal");
+    const u32 gMonBackPic_Meditite_Laserian[] = INCGFX_U32("graphics/pokemon/meditite_laserian/back.png", ".4bpp.smol");
+    const u16 gMonShinyPalette_Meditite_Laserian[] = INCGFX_U16("graphics/pokemon/meditite_laserian/shiny.pal", ".gbapal");
+	const u8 gMonIcon_Meditite_Laserian[] = INCGFX_U8("graphics/pokemon/meditite_laserian/icon.png", ".4bpp");
+	const u8 gMonFootprint_Meditite_Laserian[] = INCGFX_U8("graphics/pokemon/meditite/footprint.png", ".1bpp");

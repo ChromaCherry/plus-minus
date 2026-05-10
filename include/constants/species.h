@@ -1690,8 +1690,17 @@
 // Fakemon stuff starts here!
 #define SPECIES_MEDITITE_LASERIAN						1573
 #define SPECIES_MEDICHAM_LASERIAN						1574
+#define SPECIES_SHEERY									1575
+#define SPECIES_SHIRHORN								1576
+#define SPECIES_CAPRICOURT								1577
+#define SPECIES_IGNITTLE								1578
+#define SPECIES_GLITZBAT								1579
+#define SPECIES_VEMPYRE									1580
+#define SPECIES_FOAMIT									1581
+#define SPECIES_CRAWSTIAL								1582
+#define SPECIES_CLAROMURA								1583
 
-#define SPECIES_EGG                                     (SPECIES_MEDICHAM_LASERIAN + 1)
+#define SPECIES_EGG                                     (SPECIES_CLAROMURA + 1)
 
 #define NUM_SPECIES SPECIES_EGG
 
